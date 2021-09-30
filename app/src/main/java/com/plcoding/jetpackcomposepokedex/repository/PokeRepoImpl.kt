@@ -10,7 +10,6 @@ import com.skydoves.sandwich.ApiResponse
 import dagger.hilt.android.scopes.ActivityScoped
 import javax.inject.Inject
 
-@ActivityScoped
 class PokeRepoImpl @Inject constructor(val pokedexApi: PokedexApi): PokeRepo {
 
     override suspend fun getAllPokemons(limit: Int, offset:Int): ApiResponse<PokemonList> {
