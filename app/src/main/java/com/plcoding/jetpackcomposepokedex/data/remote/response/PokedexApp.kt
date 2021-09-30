@@ -1,4 +1,4 @@
-package com.plcoding.jetpackcomposepokedex
+package com.plcoding.jetpackcomposepokedex.data.remote.response
 
 import android.app.Application
 import androidx.compose.runtime.getValue
